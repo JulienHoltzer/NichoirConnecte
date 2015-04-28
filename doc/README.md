@@ -1,4 +1,8 @@
-# Plans du nichoir #
+# Documentation #
+
+Le répertoire "plans 3D" contient un modèle en trois dimensions pour visualiser le nichoir dans son ensemble.
+
+Le répertoire "plans 2D" contient les modèles successifs utilisés pour le fraisage ou la découpe laser des planches nécessaires à l'assemblage du nichoir.
 
 ## Matériaux :##
 
