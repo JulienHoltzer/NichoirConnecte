@@ -4,9 +4,8 @@ Le répertoire "plans 3D" contient un modèle en trois dimensions pour visualise
 
 Le répertoire "plans 2D" contient les modèles successifs utilisés pour le fraisage ou la découpe laser des planches nécessaires à l'assemblage du nichoir.
 
+
 ## Matériaux :##
-
-
 
 La decoupe prends au maximum 12mm. Pour une bonne isolation du nichoir, on recommande 18mm.
 Solution : faire un doublage. Ceci permettra de plus de passer les fils dans une decoupe ad-hoc.
