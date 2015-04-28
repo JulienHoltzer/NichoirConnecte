@@ -16,11 +16,11 @@ Le choix temporaire s'oriente vers du douglas non traité de 1cm d'épaisseur
 - Le sol ni le plafond ne doit pas etre etanche (a faire confirmer par la LPO)
 - Prévoir une ouverture lumière (translucide) pour la caméra
 
-## Assemblage: ##
+## Assemblage : ##
 
 - profiter de la decoupe laser pour faire un assemblage par emboitement
 
-##Version##
+## Version : ##
 
 Plan 0 : proposition mise en 3D - idée générale
 
