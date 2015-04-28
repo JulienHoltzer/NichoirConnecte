@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2125.9841"
+   height="690.94489"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="nichoir1.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient5191"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#0000ff;stop-opacity:1;"
+         offset="0"
+         id="stop5193" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.42426407"
+     inkscape:cx="648.00803"
+     inkscape:cy="245.49817"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="mm"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-bbox="false"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="false"
+     inkscape:snap-bbox-edge-midpoints="false"
+     inkscape:snap-bbox-midpoints="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="845"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-361.41729)">
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543085;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 1063.6102,565.98831 -70.86616,0 -857.89269,0 0,0.0625 0,70.84375 0,230.34375 70.86614,0 0,-230.34375 787.02655,0 0,301.125 -921.13486,0 0,70.87504 992.00102,0 0,-442.90629 z"
+       id="rect5283"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.03855411;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 134.53673,938.05618 0,0 m 0,-71.12657 0.31462,-300.8788 928.75785,0 0,-53.06215 -929.06255,0 -62.937474,0 0,53.0625 0,372.00002 62.927554,0.005"
+       id="rect5292"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path5296"
+       sodipodi:cx="523.64124"
+       sodipodi:cy="216.37503"
+       sodipodi:rx="38.221989"
+       sodipodi:ry="40.133087"
+       d="m 561.86322,216.37503 a 38.221989,40.133087 0 1 1 -76.44397,0 38.221989,40.133087 0 1 1 76.44397,0 z"
+       transform="matrix(0,1.4809774,-1.4109513,0,1142.2145,53.058073)" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;font-stretch:normal;font-variant:normal"
+       x="525.98175"
+       y="-88.108337"
+       id="text5450"
+       sodipodi:linespacing="125%"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan5452"
+         x="525.98175"
+         y="-88.108337">Birds iView 1.1</tspan></text>
+  </g>
+</svg>
