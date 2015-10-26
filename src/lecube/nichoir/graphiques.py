@@ -3,6 +3,7 @@
 
 import nysensors
 import nytumblr
+import nydb
 
 import logging
 import threading
@@ -10,6 +11,7 @@ import json
 import time
 import datetime
 import plotly.plotly as ply
+from plotly.graph_objs import *
 
 with open('/home/pi/NichoirConnecte/config/plotly.json') as config_file:
     plotly_user_config = json.load(config_file)
@@ -38,11 +40,9 @@ def publie_graphe_poids_heure():
    threading.Timer(3600.0, publie_graphe_poids_heure).start()
    # construction d'un graphe
    resultat = nydb.liste_poids_heure()
-   listeTime = list(itertools.chain.from_iterable(tuple(x[0] for x in resultat))
-   listePoidsNid = list(itertools.chain.from_iterable(tuple(x[1] for x in resultat))
-   listePoidsRef = list(itertools.chain.from_iterable(tuple(x[2] for x in resultat))
-   poids0 = Scatter(x=listeTime, y=listePoidsNid)
-   poids1 = Scatter(x=listeTime, y=listePoidsRef)
+   abscisse = [item[0] for item in resultat]
+   poids0 = Scatter(x=abscisse, y=[item[1] for item in resultat])
+   poids1 = Scatter(x=abscisse, y=[item[2] for item in resultat])
    data = Data([poids0, poids1])
    url = ply.plot(data, filename='Derniers poids')
 

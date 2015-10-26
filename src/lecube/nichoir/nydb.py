@@ -24,7 +24,7 @@ def chemin_dbfile():
 
 def liste_temperatures_jour():
    cur = conn.cursor()
-   return cur.execute("SELECT * FROM temps WHERE tdate = date('now')").fetchall()
+   return cur.execute("SELECT * FROM temps WHERE tdate = date('now')")
 
 def liste_poids_heure():
    cur = conn.cursor()

@@ -18,7 +18,7 @@ def publie_photo():
    logging.debug("Dites Ouistiti !")
    camera.capture('/home/pi/snapnichoir.jpg')
    nytumblr.snapshot("Et une nouvelle photo !",'/home/pi/snapnichoir.jpg')
-   threading.Timer(10.0, publie_photo).start()
+   threading.Timer(3800.0, publie_photo).start()
 
 
 

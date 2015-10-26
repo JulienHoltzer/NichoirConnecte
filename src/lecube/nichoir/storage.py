@@ -14,6 +14,7 @@ import nygithub
 import nydb
 
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
 
 # stockage de la température toutes les N secondes
 def stocke_temperature():
@@ -22,14 +23,15 @@ def stocke_temperature():
    nydb.sauve_temperatures(temp)
 
 def stocke_poids():
-   threading.Timer(10.0, stocke_poids).start()
+   threading.Timer(1.0, stocke_poids).start()
    poids_nid = nysensors.sensor_weight_nest()
    poids_ref = nysensors.sensor_weight_ref()
+   logger.debug("Poids : %s %s" % (poids_nid, poids_ref))
    nydb.sauve_poids(poids_nid, poids_ref)
 
 def publie_taille():
    taille = os.stat(nydb.chemin_dbfile()).st_size
-   logging.info("La taille de la base est de %s octets." % taille)
+   logger.info("La taille de la base est de %s octets." % taille)
    nytumblr.message("size","La base de données est à jour !","La taille de la base est de %s octets." % taille)
    threading.Timer(3600.0, publie_taille).start()
 
@@ -40,7 +42,6 @@ def publie_csv_jour():
       writer = csv.writer(f)
       writer.writerow(['Jour','Heure','Donnée','Valeur'])
       data = nydb.liste_temperatures_jour()
-      logger.debug(data)
       for row in data:
          writer.writerows(data)
       f.close()
@@ -57,7 +58,7 @@ def stocke_commit():
 
 # lancement comme un module du Cube
 def init(cube, params):
-   logging.info("Lancement des boucles de stockage")
+   logger.info("Lancement des boucles de stockage")
    stocke_temperature()
    stocke_poids()
    stocke_commit()
